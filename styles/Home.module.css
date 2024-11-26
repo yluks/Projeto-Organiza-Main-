@@ -1,0 +1,114 @@
+/* Container principal */
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #A5BDFF;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 250px; /* Largura da sidebar */
+  background-color: #2c3e8c;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  height: 450px;
+}
+
+.sidebar img {
+  width: 150px;
+  height: 150px;
+}
+
+.sidebar h1 {
+  font-size: 24px;
+  color: white;
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* Form Container */
+.formContainer {
+  width: 700px; /* Largura fixa e ajustada para o formulário */
+  background-color: white;
+  padding: 40px 30px;
+  border-radius: 20px; /* Bordas arredondadas no formulário */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  max-height: 80%;
+}
+
+/* Título principal do formulário */
+.formContainer h2 {
+  font-size: 24px;
+  color: #2c3e8c;
+  margin-bottom: 15px;
+}
+
+/* Texto no formulário */
+.formContainer p {
+  font-size: 16px;
+  color: #555;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* Label e input */
+.formContainer label {
+  font-size: 14px;
+  color: #333;
+  align-self: flex-start;
+  margin-bottom: 5px;
+}
+
+.formContainer input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  font-size: 14px;
+}
+
+/* Botão de envio */
+.formContainer .btn {
+  width: 100%;
+  background-color: #2c3e8c;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.formContainer .btn:hover {
+  background-color: #1a2769;
+}
+
+/* Links no rodapé */
+.footer {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 15px;
+}
+
+.footer a {
+  color: #2c3e8c;
+  text-decoration: underline;
+}
+
+.footer a:hover {
+  text-decoration: none;
+}
